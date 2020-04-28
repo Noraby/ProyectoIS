@@ -31,9 +31,6 @@
   border-radius: 15px;
 }
 
-div:hover{
-  border: 1px solid black;
-}
 body{
 background-color: #375E97;
   font-family: verdana;
