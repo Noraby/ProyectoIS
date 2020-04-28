@@ -1,0 +1,43 @@
+.container{
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-row-gap: 50px;
+}
+.header{
+  background: #f55631;
+  border-radius: 5px;
+  height: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 180%;
+  font-style: color:white;
+}
+.secundario{
+  display: grid;
+  padding: 0;
+  grid-row-gap: 30px;
+}
+.libro{
+  background: #6eb035;
+  border-radius: 15px;
+}
+.pelicula{
+  background: #6eb035;
+  border-radius: 15px;
+}
+.enlaces{
+  background: #6eb035;
+  border-radius: 15px;
+}
+
+div:hover{
+  border: 1px solid black;
+}
+body{
+background-color: #375E97;
+  font-family: verdana;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0;
+}
