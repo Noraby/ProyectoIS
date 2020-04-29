@@ -41,7 +41,6 @@
   background: #6eb035;
   border-radius: 15px;
 }
-
 body{
 background-color: #375E97;
   font-family: verdana;
@@ -49,7 +48,9 @@ background-color: #375E97;
   margin-right: 60px;
   margin-top: 0;
 }
-
 h1{
+  text-align: center;
+}
+h4{
   text-align: center;
 }
