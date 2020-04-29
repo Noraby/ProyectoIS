@@ -8,10 +8,7 @@
   background: #f55631;
   border-radius: 5px;
   height: 40px;
-  text-align: center;
   padding-bottom: 40px;
-  font-size: 180%;
-  font-style: color:white;
 }
 .secundario{
   display: grid;
@@ -19,8 +16,24 @@
   grid-row-gap: 30px;
 }
 .libro{
+  display: grid;
+  grid-template-rows: auto auto;
   background: #6eb035;
   border-radius: 15px;
+}
+.source{
+  display: grid;
+  grid-template-columns: 15% 80% ;
+  grid-column-gap: 30px;
+  padding: 30px ;
+}
+.resumen{
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+div:hover{
+  border: 1px solid yellow;
 }
 .pelicula{
   background: #6eb035;
@@ -37,4 +50,8 @@ background-color: #375E97;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 0;
+}
+
+h1{
+  text-align: center;
 }
