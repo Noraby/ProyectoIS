@@ -31,9 +31,7 @@
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
-}
-div:hover{
-  border: 1px solid yellow;
+  margin-bottom: 2%;
 }
 .pelicula{
   background: #6eb035;
